@@ -5,7 +5,7 @@ import Logo from './Logo/Logo';
 const menuData = ["Main", "Cafes", "Chaikhanas", "Restaurants", "Hotels"];
 const Menu = () => {
   return (
-    <div>
+    <div className="Menu">
       <Logo />
       <MenuItems menuItems={menuData}/>
     </div>

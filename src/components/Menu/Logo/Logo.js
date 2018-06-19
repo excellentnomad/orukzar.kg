@@ -1,8 +1,12 @@
 import React from 'react';
-import LogoImg from '../../../logo.svg';
+import LogoImg from '../../../logo.png';
 
 const Logo = () => (
-    <div><img src={LogoImg} alt="Company logo" height="20px"/></div>
+    <div className="Logo">
+        <h1>
+            <a href="/"><img src={LogoImg} alt="Company logo" height="100px"/></a>
+        </h1>
+    </div>
 );
 
 export default Logo;

@@ -1,4 +1,24 @@
-.App-wrapper {
+.Wrapper {
     max-width: 1200px;
     margin: 0 auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: darkslategray;
+}
+nav ul > li {
+    border-bottom: 1px solid #ddd;
+}
+nav ul > li > a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    line-height: 1;
+}
+.Menu .Logo h1 {
+    line-height: 0;
+    margin: 0;
+    text-align: center;
 }

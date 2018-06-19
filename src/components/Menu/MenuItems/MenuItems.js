@@ -6,9 +6,11 @@ const MenuItems = (props) => {
         <MenuItem key={menuItem + i} menuName={menuItem} />
     ));
     return (
-        <ul>
-            {menuItems}
-        </ul>
+        <nav className="MenuItems">
+            <ul>
+                {menuItems}
+            </ul>
+        </nav>
     );
 };
 

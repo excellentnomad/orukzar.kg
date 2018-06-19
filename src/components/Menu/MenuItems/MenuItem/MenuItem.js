@@ -2,7 +2,7 @@ import React from "react";
 
 const MenuItem = (props) => {
     return (
-        <li>{props.menuName}</li>
+        <li><a href="#">{props.menuName}</a></li>
     );
 }
 
